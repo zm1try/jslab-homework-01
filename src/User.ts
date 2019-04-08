@@ -10,6 +10,5 @@ export class User {
         this.name = name;
         this.surname = surname;
         this.list = list;
-        // console.log(`New user - ${this.name} - with secret ID - ${this.id}`);
     }
 }

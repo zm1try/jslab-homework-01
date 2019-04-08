@@ -1,10 +1,10 @@
 export class Homework {
     public theme: string;
     public task: string;
-    public status: boolean;
-    constructor(theme: string, task: string, status: boolean) {
+    public isCompleted: boolean;
+    constructor(theme: string, task: string, isCompleted: boolean) {
         this.theme = theme;
         this.task = task;
-        this.status = status;
+        this.isCompleted = isCompleted;
     }
 }
